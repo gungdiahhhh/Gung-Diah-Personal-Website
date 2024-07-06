@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1,0">
+        <title> Gung Diah Personal Website</title>
+    </head>
+    <body>
+        <a href="MENU.html"> Kembali ke halaman utama</a>
+        <form action="form.php" method="p0st" style="position: fixed;">
+            <fieldset>
+                <legend> REGISTRASI </legend>
+                <p> 
+                    <label> Nama Lengkap </label>
+                    <input type="text" name="Nama_Lengkap" placeholder="masukan nama lengkap"/>
+                </p>
+                <p>
+                    <label> Nama Panggilan</label>
+                    <input type="text" name="Nama_panggilan" placeholder="masukan nama panggilan"/>
+                </p>
+                <p>
+                    <label> Tanggal Lahir </label>
+                    <input type="date" name="Tanggal_Lahir"/>
+                </p>
+                <p>
+                    <label> Umur </label>
+                    <input type="number" min="17" max="30" name="Umur">
+                </p>
+                <p>
+                    <label> Jenis Kelamin </label>
+                    <label><input type="radio" name="jenis_kelamin" value="Laki-laki"/> Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="Perempuan"/> Perempuan</label>
+                </p>
+                <p>
+                    <label> Agama </label>
+                    <select name="Agama">
+                        <option value="Islam"> Islam </option>
+                        <option value="Hindu"> Hindu </option>
+                        <option value="Kristen"> Kristen </option>
+                        <option value="Buddha"> Buddha </option>
+                    </select>
+                </p>
+                <p>
+                    <label> Email </label>
+                    <input type="email" name="email" placeholder="masukan alamat email"/>
+                </p>
+                <p>
+                    <label> Password Email </label>
+                    <input type="password" name="password_email" placeholder="masukan password email anda"/>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="remember me" value="remember"/> Remember Me</label>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="SUBMIT"/>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
